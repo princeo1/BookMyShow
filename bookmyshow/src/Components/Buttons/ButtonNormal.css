@@ -1,0 +1,9 @@
+.btn-normal{
+    margin:1vw;
+    border-radius: 5px;
+    border:none;
+    height:6vh;
+    color:white;
+    cursor: pointer;
+}
+
