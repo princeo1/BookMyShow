@@ -1,6 +1,6 @@
 import React ,{useState} from 'react';
-import ButtonNormal from '../Buttons/ButtonNormal';
-import ButtonDropdown from '../Buttons/ButtonDropdown';
+import ButtonNormal from '../Buttons/ButtonNormal';               // importing  reusable button
+import ButtonDropdown from '../Buttons/ButtonDropdown';           // importing  dropdown reusable button 
 import { AiOutlineClose } from "react-icons/ai";
 import './Navbar.css';
 const Navbar =({finalFilter})=>{
