@@ -32,10 +32,10 @@ const Navbar =({finalFilter})=>{
         <div className="main-nav-left">
           <h5 style={{fontFamily: 'Brush Script MT',color:'white',fontSize:'20px',margin:'5px'}}>Movie Trailer</h5>
           <ButtonNormal text='Coming Soon' btnColor='#49BA8E'/>
-          <ButtonNormal text='Now Showing your choice' btnColor='rgb(51,51,51)'/>
+          <ButtonNormal text='Now Showing' btnColor='rgb(51,51,51)'/>
         </div>
         <div className="main-nav-right">
-          <ButtonDropdown text='Popular'  arr={popular} addFilter={addFilter}/>
+          <ButtonDropdown text='Popular all'  arr={popular} addFilter={addFilter}/>
           <ButtonDropdown text='English'  arr={allLanguage} addFilter={addFilter}/>
           <ButtonDropdown text='All Genres' arr={allGeneres} addFilter={addFilter}/>
         </div>
