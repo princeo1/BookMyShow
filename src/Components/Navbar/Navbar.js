@@ -27,7 +27,7 @@ const Navbar =({finalFilter})=>{
   let allGeneres = ['Action','Adventure','Animation','Biography','Classic','Comedy','Crime','Drama','Family','Fantast','History','Horror','Musical','Mystery','Period','Psychological','Roamnce','Sci-fi','Social','Sports','suspense','Thriller','War'];
     
   return(
-        <div >
+        <div>
         <nav className="main-nav">
         <div className="main-nav-left">
           <h5 style={{fontFamily: 'Brush Script MT',color:'white',fontSize:'20px',margin:'5px'}}>Movie Trailer</h5>
