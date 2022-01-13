@@ -42,7 +42,7 @@ const Navbar =({finalFilter})=>{
         <button class="btn-cross"><AiOutlineClose/></button>
       </nav>
       <div class="filterApplied">
-      <h5 style={{color:'grey',fontSize:'10px',margin:'5px'}}>Applied Filters:</h5>
+      <h5 style={{color:'grey',fontSize:'10px',margin:'5px'}}>Applied Filters are here:</h5>
       {
         appliedFilters.map((val)=>{
         return(<div className="filtered-list-each-div">{`${val}`}<button onClick={()=>deleteFilter(val)} className="btn-cross-filter"><AiOutlineClose/></button></div>)
