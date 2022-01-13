@@ -36,7 +36,7 @@ const Navbar =({finalFilter})=>{
         </div>
         <div className="main-nav-right">
           <ButtonDropdown text='Popular all'  arr={popular} addFilter={addFilter}/>
-          <ButtonDropdown text='English'  arr={allLanguage} addFilter={addFilter}/>
+          <ButtonDropdown text='Language'  arr={allLanguage} addFilter={addFilter}/>
           <ButtonDropdown text='All Genres' arr={allGeneres} addFilter={addFilter}/>
         </div>
         <button class="btn-cross"><AiOutlineClose/></button>
