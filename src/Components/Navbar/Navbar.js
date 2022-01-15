@@ -31,7 +31,7 @@ const Navbar =({finalFilter})=>{
         <nav className="main-nav">
         <div className="main-nav-left">
           <h5 style={{fontFamily: 'Brush Script MT',color:'white',fontSize:'20px',margin:'5px'}}>Movie Trailer</h5>
-          <ButtonNormal text='Coming Soon' btnColor='#49BA8E'/>
+          <ButtonNormal text='Coming very Soon' btnColor='#49BA8E'/>
           <ButtonNormal text='Now Showing' btnColor='rgb(51,51,51)'/>
         </div>
         <div className="main-nav-right">
